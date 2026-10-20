@@ -1,0 +1,5 @@
+/* The parent numbers are drawn just before the typed number, inside it,
+   so "1." under item 2.2 reads as "2.2.1." with no gap. */
+.markdown-source-view.mod-cm6 .nested-list-number::before {
+  content: attr(data-nested-prefix);
+}

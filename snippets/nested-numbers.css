@@ -1,0 +1,19 @@
+/* ===== Nested list numbering: 1., 1.1., 1.1.1. ===== */
+
+/* ---- Reading view ---- */
+.markdown-rendered ol {
+  counter-reset: item;
+  list-style: none;
+}
+.markdown-rendered ol > li {
+  counter-increment: item;
+}
+.markdown-rendered ol > li::before {
+  content: counters(item, ".") ". ";
+  margin-left: -1.5em;
+}
+
+/* ---- Live Preview / editing ----
+   Handled by the "Nested list numbers" plugin, which works out the numbers
+   from the whole note. CSS counters can't do this reliably here, because
+   the editor only keeps the lines near the screen on the page. */
