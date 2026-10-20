@@ -4,6 +4,13 @@ An Obsidian plugin that shows parent numbers on nested numbered lists in Live Pr
 
 The numbers are worked out from the whole note, not from the lines currently on screen, so they stay correct while scrolling.
 
+![A three-level numbered list showing 1.2.1. and 2.2.2.1.](screenshots/desktop-1.png)
+
+<p>
+  <img src="screenshots/mobile-1.png" width="240" alt="Nested numbers on a phone, light theme">
+  <img src="screenshots/mobile-2-dark.png" width="240" alt="Nested numbers on a phone, dark theme">
+</p>
+
 ## Install
 
 Copy `main.js`, `manifest.json` and `styles.css` into `<vault>/.obsidian/plugins/nested-list-numbers/`, then enable **Nested list numbers** under *Settings → Community plugins*.
