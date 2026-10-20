@@ -1,7 +1,7 @@
 {
   "id": "nested-list-numbers",
   "name": "Nested list numbers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.0.0",
   "description": "Shows parent numbers on nested numbered lists (1.2.3.) in Live Preview, stable while scrolling.",
   "author": "jaskaran-sethy",
